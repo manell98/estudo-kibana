@@ -13,9 +13,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "elasticsearch": "^16.7.3",
     "express": "^4.19.2"
   },
   "devDependencies": {
+    "@types/elasticsearch": "^5.0.43",
     "@types/express": "^4.17.21",
     "@types/node": "^22.5.4",
     "ts-node": "^10.9.2",
