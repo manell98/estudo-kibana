@@ -1,0 +1,73 @@
+# Dependências de Node.js
+node_modules/
+
+# Arquivos e pastas gerados
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnp.*
+
+# Diretórios de configuração IDE
+.vscode/
+.idea/
+
+# Ambiente de desenvolvimento
+.env
+.env.test
+.env.production
+
+# Builds
+dist/
+build/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Sistema de OS
+.DS_Store
+Thumbs.db
+
+# Arquivos do editor de código
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos de cache
+*.cache
+*.tmp
+
+# Outros arquivos e diretórios específicos
+*.local
+*.coverage
+*.coverage.*
+*.npm
+*.yarn
+*.pnpm
+
+# Configurações do Docker
+docker-compose.override.yml
+docker-compose.local.yml
+Dockerfile.local
+
+# Diretórios de testes
+coverage/
+
+# Diretórios de build de ferramentas
+build/
+dist/
+
+# Diretórios do TypeScript
+*.tsbuildinfo
+
+# Configurações do ESLint
+eslintcache/
+
+# Diretórios de backup
+*.bak
+*.swp
+*.swo
